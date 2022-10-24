@@ -27,6 +27,7 @@
 		4774B2AC29053023008C0F6E /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2AB29053023008C0F6E /* WeekView.swift */; };
 		4774B2AE2905305D008C0F6E /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2AD2905305D008C0F6E /* WeekdayView.swift */; };
 		4774B2B029066B8D008C0F6E /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2AF29066B8C008C0F6E /* Date+Ext.swift */; };
+		4774B2B429070453008C0F6E /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2B329070453008C0F6E /* BaseInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4774B2AB29053023008C0F6E /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		4774B2AD2905305D008C0F6E /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
 		4774B2AF29066B8C008C0F6E /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		4774B2B329070453008C0F6E /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				4774B23528F8805E008C0F6E /* Progress */,
 				4774B23428F88053008C0F6E /* Session */,
 				4774B23328F88049008C0F6E /* Overview */,
+				4774B2B22907020E008C0F6E /* Navigation */,
 				4774B23228F8803F008C0F6E /* Base */,
 			);
 			path = Controllers;
@@ -145,10 +148,8 @@
 		4774B23228F8803F008C0F6E /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				4774B22328F8439C008C0F6E /* TabBarController.swift */,
-				4774B22B28F84B6E008C0F6E /* NavBarController.swift */,
+				4774B2B1290701E3008C0F6E /* Views */,
 				4774B22E28F84D98008C0F6E /* BaseController.swift */,
-				4774B2A629046419008C0F6E /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -203,6 +204,24 @@
 				4774B2AD2905305D008C0F6E /* WeekdayView.swift */,
 			);
 			path = WeekView;
+			sourceTree = "<group>";
+		};
+		4774B2B1290701E3008C0F6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4774B2A629046419008C0F6E /* BaseView.swift */,
+				4774B2B329070453008C0F6E /* BaseInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4774B2B22907020E008C0F6E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				4774B22328F8439C008C0F6E /* TabBarController.swift */,
+				4774B22B28F84B6E008C0F6E /* NavBarController.swift */,
+			);
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +303,7 @@
 				4774B2AC29053023008C0F6E /* WeekView.swift in Sources */,
 				4774B23828F8806D008C0F6E /* SessionController.swift in Sources */,
 				4774B2B029066B8D008C0F6E /* Date+Ext.swift in Sources */,
+				4774B2B429070453008C0F6E /* BaseInfoView.swift in Sources */,
 				4774B23F28F9934E008C0F6E /* SecondaryButton.swift in Sources */,
 				4774B23A28F88075008C0F6E /* ProgressController.swift in Sources */,
 				4774B23128F84E5C008C0F6E /* UIView+Ext.swift in Sources */,
