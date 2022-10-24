@@ -13,7 +13,7 @@ class SessionController: BaseController {
         super.viewDidLoad()
 
         title = Resources.Strings.NavBar.session
-        navigationController?.tabBarItem.title = Resources.Strings.TabBar.session
+        navigationController?.tabBarItem.title = Resources.Strings.TabBar.title(for: .session)
 
         addNavBarItem(at: .left, with: Resources.Strings.Session.leftButton)
         addNavBarItem(at: .right, with: Resources.Strings.Session.rightButton)

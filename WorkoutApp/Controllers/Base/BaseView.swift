@@ -12,9 +12,9 @@ class BaseView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        addViews()
-        layoutViews()
-        configure()
+        setupViews()
+        constraintViews()
+        configureAppearance()
     }
 
     required init?(coder: NSCoder) {
@@ -23,7 +23,7 @@ class BaseView: UIView {
 }
 
 @objc extension BaseView {
-    func addViews() {}
-    func layoutViews() {}
-    func configure() {}
+    func setupViews() {}
+    func constraintViews() {}
+    func configureAppearance() {}
 }
