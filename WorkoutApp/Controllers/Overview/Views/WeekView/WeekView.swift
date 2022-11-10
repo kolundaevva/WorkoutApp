@@ -9,7 +9,7 @@ import UIKit
 
 final class WeekView: BaseView {
     private let stackView = UIStackView()
-    private let calendar = Calendar.current
+    private let calendar = Date.calendar
 }
 
 extension WeekView {
@@ -38,7 +38,7 @@ extension WeekView {
 
         var weekdays = calendar.shortWeekdaySymbols
 
-        if calendar.firstWeekday == 1 {
+        if calendar.firstWeekday == 2 {
             let sunday = weekdays.removeFirst()
             weekdays.append(sunday)
         }

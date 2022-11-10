@@ -47,8 +47,12 @@ enum Resources {
         }
 
         enum Session {
-            static let leftButton = "Pause"
-            static let rightButton = "Finish"
+            static let leftStartButton = "Start"
+            static let leftPausedButton = "Pause"
+            static let rightFinishButton = "Finish"
+
+            static let elapsedTime = "Elapsed Time"
+            static let remainingTime = "Remaining Time"
         }
 
         enum Progress {
