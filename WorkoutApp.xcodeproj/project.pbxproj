@@ -30,6 +30,7 @@
 		4774B2B429070453008C0F6E /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2B329070453008C0F6E /* WABaseInfoView.swift */; };
 		4774B2B829092BFA008C0F6E /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2B729092BFA008C0F6E /* TimerView.swift */; };
 		4774B2BA29092C38008C0F6E /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4774B2B929092C38008C0F6E /* ProgressView.swift */; };
+		47D73397291D4B090049BF67 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D73396291D4B090049BF67 /* PercentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		4774B2B329070453008C0F6E /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 		4774B2B729092BFA008C0F6E /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		4774B2B929092C38008C0F6E /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		47D73396291D4B090049BF67 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 			children = (
 				4774B2B729092BFA008C0F6E /* TimerView.swift */,
 				4774B2B929092C38008C0F6E /* ProgressView.swift */,
+				47D73396291D4B090049BF67 /* PercentView.swift */,
 			);
 			path = Timer;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				4774B22C28F84B6E008C0F6E /* NavBarController.swift in Sources */,
 				4774B2AC29053023008C0F6E /* WeekView.swift in Sources */,
 				4774B23828F8806D008C0F6E /* SessionController.swift in Sources */,
+				47D73397291D4B090049BF67 /* PercentView.swift in Sources */,
 				4774B2B029066B8D008C0F6E /* Date+Ext.swift in Sources */,
 				4774B2BA29092C38008C0F6E /* ProgressView.swift in Sources */,
 				4774B2B429070453008C0F6E /* WABaseInfoView.swift in Sources */,
