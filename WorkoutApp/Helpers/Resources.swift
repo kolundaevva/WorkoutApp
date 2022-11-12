@@ -53,6 +53,14 @@ enum Resources {
 
             static let elapsedTime = "Elapsed Time"
             static let remainingTime = "Remaining Time"
+
+            static let workoutStats = "Workout Stats"
+            static let heartRate = "Heart Rate"
+            static let averagePace = "Average Pace"
+            static let totalSteps = "Total Steps"
+            static let totalDistance = "Total Distance"
+
+            static let stepsCounter = "Steps Counter"
         }
 
         enum Progress {
@@ -84,6 +92,13 @@ enum Resources {
         enum Common {
             static let downArrow = UIImage(named: "down_arrow")
             static let add = UIImage(named: "add_button")
+        }
+
+        enum Session {
+            static let statsAvgSpeed = UIImage(named: "stats_avgSpeed")
+            static let statsHeartBeat = UIImage(named: "stats_heartBeat")
+            static let statsTotalDistance = UIImage(named: "stats_totalDistance")
+            static let statsTotalSteps = UIImage(named: "stats_totalSteps")
         }
     }
 
